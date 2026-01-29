@@ -1,4 +1,25 @@
-/* department budget vs Actual Payroll */
+/*
+Project: Department Budget vs Actual Payroll Analysis
+
+Business Question:
+Are departments operating within their approved payroll budgets?
+
+Analysis Goals:
+- Compare departmental payroll expenses against allocated budgets
+- Identify departments over or under budget
+- Calculate variance in dollars and percentage
+- Measure percentage of budget used
+- Flag departments exceeding budget thresholds
+
+Key Assumption:
+Payroll data does not contain fiscal year information.
+Payroll is treated as a snapshot baseline and compared
+against each fiscal year budget.
+
+Purpose:
+Support finance and leadership teams in monitoring budget
+performance and identifying cost overruns.
+*/
 
 WITH dept_budget AS (
 	SELECT department_id,
