@@ -1,4 +1,4 @@
-## ðŸ“Š Project 2: Department Budget vs Actual Payroll Analysis
+## Project 2: Department Budget vs Actual Payroll Analysis
 
 ### Business Question
 Are departments operating within their approved payroll budgets?
@@ -31,11 +31,6 @@ Payroll is treated as a snapshot baseline and compared against each fiscal yearâ
 - Financial variance calculations
 
 ### Output Example (sample)
+<img width="1307" height="222" alt="image" src="https://github.com/user-attachments/assets/faf76320-ce5e-4b30-a283-d093288ba5c6" />
 
-| Department | Fiscal Year | Budget | Payroll | Variance | % Used | Over Budget |
-|----------|-------------|--------|---------|----------|--------|-------------|
-| Parks | 2024 | $1,200,000 | $1,350,000 | -$150,000 | 112.5% | Yes |
-| Admin | 2024 | $800,000 | $720,000 | $80,000 | 90.0% | No |
-
-*(Values shown for demonstration purposes)*
 
